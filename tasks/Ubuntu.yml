@@ -1,0 +1,4 @@
+---
+
+- name: Ubuntu 14 | Install Nagios3 locally
+  local_action: apt: pkg=nagios3-core state=latest
